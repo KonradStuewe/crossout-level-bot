@@ -1,0 +1,34 @@
+{
+    "name": "crossout",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node mybot.js"
+    },
+    "engines": {
+        "node": "6.11.0"
+    },
+    "dependencies": {
+        "discord.js": "11.1.0",
+        "ascii-table": "0.0.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KonradStuewe/crossout-level-bot"
+    },
+    "author": "burning_pixel",
+    "license": "ISC",
+    "eslintConfig": {
+        "ecmaVersion": 6,
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "extends": "eslint:recommended",
+        "rules": {
+            "no-console": "off"
+        }
+    }
+}
